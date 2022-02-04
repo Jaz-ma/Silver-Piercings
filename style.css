@@ -1,6 +1,7 @@
 
-
+*, *::before, *::after { margin: 0; box-sizing: border-box; }
 body{
+    position: relative;
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
@@ -27,8 +28,7 @@ body{
     background: #555; 
   }
   header{
-    position: fixed;
-    top: 0;
+    
     
     width: 100%;
     max-width: inherit;
@@ -139,23 +139,23 @@ body{
   max-width: inherit;
 }
 #introduction{
-    margin-top: 5rem;
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    padding-bottom: 10rem;
+    
    
 color: rgba(255, 255,255, 0.85);
 
-    height: 50rem;
+    height: 60vh;
 }
 #introduction h1 {
     margin: 0;
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 6rem;
-    font-size: clamp(2rem,10vw,8rem);
+    font-size: max(30px,5vw);
     font-weight: bolder;
     font-family: 'Lato', sans-serif;
 }
@@ -166,7 +166,7 @@ color: rgba(255, 255,255, 0.85);
     padding-right: 2rem;
    
     
-    font-size: clamp(2rem,10vw,5rem);
+    font-size: max(20px,3vw);
     font-weight: bolder;
     font-family: 'Lato', sans-serif;
 }
@@ -180,7 +180,7 @@ color: rgba(255, 255,255, 0.85);
   text-align: center;
 }
 #content-container p{
-    padding: 2rem;
+    padding: 1rem;
     font-family: 'Lato', sans-serif; 
     line-height: 2rem; 
     font-size: min(8vw,30px);
@@ -354,9 +354,7 @@ form{
         align-items: flex-start;
         justify-content: flex-start;
     }
-    #location-intro{
-        
-    }
+    
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
