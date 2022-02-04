@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title>Silver Rush</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div id="logo">
+                <a href="#"><h1>Silver Rush</h1></a>
+            </div>
+            <ul id="menu">
+                <li class="menu-item" id="menu-home"><a href="#">Home</a></li>
+                <li class="menu-item" id="menu-about"><a href="#">About</a></li>
+                <li class="menu-item" id="menu-home"><a href="#">FAQ</a></li>
+                <li class="menu-item" id="menu-home"><a href="#">Aftercare</a></li>
+            </ul>
+            <div id="appointment-btn-container">
+                <button id="appointment-btn">Make An Apointment</button>          
+            </div>
+            <button id="phone-menu-btn" onclick="hideandshowmenu()">
+                <svg class="phone-menu-svg-bars" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
+                <svg class="phone-menu-svg-cancel" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg>
+            </button>
+        </div>
+        <nav>
+            <div class="phone-menu">
+                <a class="phone-menu-item" id="phone-menu-home" href="#">Home</a>
+                <a class="phone-menu-item" id="phone-menu-about" href="#">About</a>
+                <a class="phone-menu-item" id="phone-menu-home" href="#">FAQ</a>
+                <a class="phone-menu-item" id="phone-menu-home" href="#">Aftercare</a>
+            </div>
+        </nav>
+       
+    </header>
+    <section id="general-intro">
+        <div id="introduction" >
+            <h1 class="p1">Welcome to Silver Rush Piercing Studio</h1>
+            <h4 class="p2">Run by your local Bisexual Witch (no BPD diagnosis yet), Say hi to Weam When you stop by. </h4>
+        </div>
+        <div id="content-container">
+            <h1>About The Shop</h1>
+            <div id="second-content-container">
+                 
+               
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores et eveniet voluptas corporis distinctio mollitia. Quas nulla facere non, consequuntur voluptate atque asperiores pariatur nisi, esse minima nam in exercitationem.</p>
+            </div>
+    </section>
+   
+       
+       <!-- <div id="gallery">
+            <div class="gallery-item">
+                <img class="item-image" src="Images/jewellery1.jpg" alt="Piercing Jewellery">
+            </div>
+            <div class="gallery-item">
+                <img class="item-image" src="Images/jewellery2.jpeg" alt="Piercing Jewellery">
+            </div>
+            <div class="gallery-item">
+                <img class="item-image" src="Images/jewellery3.png" alt="Piercing Jewellery">
+            </div>
+            <div class="gallery-item">
+                <img class="item-image" src="Images/jewellery4.png" alt="Piercing Jewellery">
+            </div>
+            <div class="gallery-item">
+                <img class="item-image" src="Images/jewellery5.jpg" alt="Piercing Jewellery">
+            </div>
+            <div class="gallery-item">
+                <img class="item-image" src="Images/jewellery6.jpg" alt="Piercing Jewellery">
+            </div>
+        </div>     -->       
+    </div>
+    <div class="row">
+        <div class="column">
+          <img src="Images/jewellery1.jpg">
+          <img src="Images/jewellery2.jpeg">
+        
+        </div>
+        <div class="column">
+          <img src="Images/jewellery3.png">
+          <img src="Images/jewellery6.jpg">
+        </div>
+        <div class="column">
+            <img src="Images/jewellery5.jpg">
+            <img src="Images/jewellery4.png">
+        </div>       
+      </div>
+      <div id="appointment-container">
+          <h1 style="text-align: center;">Make An Appointment</h1>
+        <div id="appointment">
+            <div id="rules">
+                <div id="rules-intro">
+                    <h2>First Things First:</h2>
+                    <p>For the purpose of providing you with the best service possible, We urge you to follow these following standard guidelines for a better general experience for everyone.</p>
+                </div>
+               
+                <ol>
+                      <li>
+                          <button class="rule-btn"  onclick="rule1showorhide()"><h1><em>1</em>&nbsp;&nbsp;&nbsp; Bring Valid ID </h1></button>
+                              <div class="descriptions open-description" id="rule-description1">
+                                <p>We require a goverment issued photo ID to confirm your identity and in the case of a minor, a photo ID for the parent or legal guardian signing, and some form of photo ID for the minor. This can be a passport OR a birth certificate and school ID. If you have any questions about ID please call ahead to speak to our staff. </p>
+                            </div>                  
+                      </li>
+                          <li>
+                              <button class="rule-btn"  onclick="rule2showorhide()"><h1><em>2</em>&nbsp;&nbsp;&nbsp; Appointments</h1></button>
+                                  <div class="descriptions" id="rule-description2">
+                                    <p>Due to logistical constraints we cannot take walks-ins, which means appointments are required </p>
+                                </div>                  
+                      </li>
+                          <li>
+                              <button class="rule-btn " onclick="rule3showorhide()"><h1><em>3</em>&nbsp;&nbsp;&nbsp; Arrive Fed & Sober</h1></button>
+                                  <div class="descriptions" id="rule-description3">
+                                    <p>We highly recommend clients have a moderate meal a few hours before getting any piercing or tattoo. Having food in your stomach helps your blood sugar levels during the procedure, and for oral piercings it’s much easier to eat before you get pierced rather then after. We also require all clients arrive sober. Not only is it not legal for us to pierce or tattoo you under the influence of drugs or alcohol, but it will also make the process much more painful and uncomfortable then it has to be.</p>
+                              </div>                  
+                      </li>
+                      <li>
+                          <button class="rule-btn" onclick="rule4showorhide()"><h1><em>4</em>&nbsp;&nbsp;&nbsp; Bring Valid ID</h1></button> 
+                                <div class="descriptions" id="rule-description4">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio consectetur repellat reiciendis assumenda nulla explicabo delectus vitae facilis natus, recusandae unde aperiam itaque incidunt placeat alias. Perspiciatis alias cumque corrupti.</p>
+                          </div>                  
+                      </li>
+                </ol>
+            </div>
+          <form>
+              <!-- <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname"> -->
+              <h1>Coming soon cus dumb bitch can't decide what to put here yet</h1>
+              <h3>"Don't rush me"</h3>
+          </form>
+        </div>
+      </div>
+
+      <div id="location">
+        <h1>Here is our piercing shops location</h1>
+          <div id="location-intro">
+            <h2>Not sure when it'll be open since the only employee is gonna be Weam at first,
+                and that dumb bitch is a med school student so she's pretty busy. But yeah stop by and see if you're lucky lmao
+            </h2>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=March%C3%A9%20Ali%20Mellah%20Av.%20Colonel%20Mellah%20Ali,%20Sidi%20M'Hamed%2016000&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br><style>.mapouter{position:relative;text-align:center;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedding maps in website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+                         
+          </div>
+      </div>
+      
+    
+   
+</body>
+</html>
