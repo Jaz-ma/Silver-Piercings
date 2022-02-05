@@ -1,11 +1,10 @@
 
-*, *::before, *::after { margin: 0; box-sizing: border-box; }
+
 body{
-    position: relative;
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    width: 100%;
+   
     min-height: 100vh;
     box-sizing: border-box;
 }
@@ -28,7 +27,8 @@ body{
     background: #555; 
   }
   header{
-    
+    position: fixed;
+    top: 0;
     
     width: 100%;
     max-width: inherit;
@@ -148,7 +148,7 @@ body{
    
 color: rgba(255, 255,255, 0.85);
 
-    height: 60vh;
+    height: 50vh;
 }
 #introduction h1 {
     margin: 0;
@@ -354,7 +354,9 @@ form{
         align-items: flex-start;
         justify-content: flex-start;
     }
-    
+    #location-intro{
+        
+    }
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
